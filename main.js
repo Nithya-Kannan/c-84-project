@@ -47,19 +47,35 @@ function my_keydown(e)
 			console.log("number key");
 		}
 
-		if(keyPressed >=37 && keyPressed<=40)
+	    if(keyPressed >=37 && keyPressed<=40)
 		{
 			arrowkey();
 			document.getElementById("d1").innerHTML="You Pressed Arrow Key";
 			console.log("arrow key");
 		}
    
-		if(keyPressed  = 17, 18, 27)
+		if(keyPressed  == 17)
 		{
 			specialkey();
 			document.getElementById("d1").innerHTML="You Pressed Special Key";
-			console.log("special key");
+			console.log("special key");	
 		}
+
+		else if(keyPressed ==18)
+		{
+			specialkey();
+			document.getElementById("d1").innerHTML="You Pressed Special Key";
+			console.log("special key");	
+		}
+
+		else if(keyPressed ==27)
+		{
+			specialkey();
+			document.getElementById("d1").innerHTML="You Pressed Special Key";
+			console.log("special key");	
+		}
+
+		
 
 }
 
